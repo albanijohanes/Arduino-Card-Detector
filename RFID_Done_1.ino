@@ -51,7 +51,7 @@ void loop()
   Serial.println();
   Serial.print("Message : ");
   content.toUpperCase();
-  if (content.substring(1) == "75 5D 8A AC" || content.substring(1) == "05 87 84 64 56 A1 00") //change here the UID of the card/cards that you want to give access
+  if (content.substring(1) == "UID kartu" || content.substring(1) == "UID kartu") //change here the UID of the card/cards that you want to give access
   {
     Serial.println("Akses diterima");
     Serial.println();
